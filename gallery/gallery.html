@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Tree and Outdoor Maintenance</title>
+    <link rel="icon" type="image/png"
+ href="https://scontent.fakl5-1.fna.fbcdn.net/v/t1.0-9/21686273_1679089658799285_7563658251551716698_n.png?oh=f846e7faa3468a0a46483bc692b6a5ee&oe=5AC66C84">
+     <!-- jquery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <!-- font -->
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="../styles/before-after.css">
+     <link rel="stylesheet" type="text/css" href="../styles/style.css">
+     <link rel="stylesheet" href="../styles/nav.css">
+  </head>
+  <body>
+    <logo>
+      <img src="https://scontent.fakl5-1.fna.fbcdn.net/v/t1.0-9/21686273_1679089658799285_7563658251551716698_n.png?oh=f846e7faa3468a0a46483bc692b6a5ee&oe=5AC66C84">
+    </logo>
+    <nav>
+      <div><a href="../index.html">Home</a></div>
+      <div><a href="../services/services.html">Services</a></div>
+      <div><a href="#">Gallery</a></div>
+      <div><a href="../contact/contact.html">Contact Us</a></div>
+    </nav>
+    <div class="menu-collapsed">
+      <div class="bar"></div>
+       <navi>
+          <ul>
+             <li><a href="../index.html">Home</a></li>
+             <li><a href="../services/services.html">Services</a></li>
+             <li><a href="gallery.html">Gallery</a></li>
+             <li><a href="../contact/contact.html">Contact Us</a></li>
+          </ul>
+       </navi>
+    </div>
+    <div id="content">
+      <div id="container">
+       <div><img alt="before" src="../pics/in-front-of-deck-before.png" width="300" height="533" /></div>
+       <div><img alt="after" src="../pics/in-front-of-deck-after.png" width="300" height="533" /></div>
+      </div>
+
+      <div id="container3">
+       <div><img alt="before" src="../pics/lawn-before.jpg" width="400" height="710" /></div>
+       <div><img alt="after" src="../pics/lawn-after.jpg" width="400" height="710" /></div>
+      </div>
+
+      <div id="container2">
+       <div><img alt="before" src="../pics/bush-before.png" width="400" height="225" /></div>
+       <div><img alt="after" src="../pics/bush-after.png" width="400" height="225" /></div>
+      </div>
+    </div>
+
+
+  <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.beforeafter-1.4.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+    	$('#container').beforeAfter();
+      $('#container2').beforeAfter();
+      $('#container3').beforeAfter();
+
+    });
+
+    if( self == top ) {
+        document.documentElement.style.display = 'block' ;
+    } else {
+        top.location = self.location ;
+    }
+  </script>
+  </body>
+</html>

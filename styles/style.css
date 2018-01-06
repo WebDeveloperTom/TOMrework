@@ -1,0 +1,130 @@
+
+/* general */
+body {
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+h2, h3{
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+
+/* header css */
+logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+logo img {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+nav {
+  background-color: #7EB438;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 50px;
+
+  font-family: 'Rubik', sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-collapsed {
+  display: none;
+}
+
+navi ul > li {
+  list-style-type: none;
+}
+
+/* home css */
+.main-img img{
+  padding-top: 20px;
+  height: 460px;
+  width: 100%;
+}
+
+.intro {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+/* services */
+.services{
+  margin-top: 30px;
+}
+.items{
+  margin: 50px;
+}
+
+/* contact */
+.contact{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.form {
+  /* border: solid 2px #666; */
+  padding: 20px;
+}
+.info {
+  margin-left: 20px;
+  /* border: solid 2px #666; */
+  padding: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .contact {
+      flex-flow: column;
+      align-items: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  .menu-collapsed {
+    display: initial;
+  }
+  nav {
+    display: none;
+  }
+}
+
+
+
+
+
+
+/* beforeAfter css */
+.balinks > a {
+  color: #29460C;
+}
+
+#content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin:0 auto;
+  width:300px;
+}
+.balinks {
+  margin-bottom: 20px;
+}
+
+#container {
+  margin-top: 20px;
+}
